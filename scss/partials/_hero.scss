@@ -1,0 +1,30 @@
+.hero {
+    background-color: #202b27;
+    display: flex;
+    align-items: center;
+    /* padding-inline: 8rem; */
+
+    .hero-titulo {
+        color:white;
+        font-weight: 750;
+        border-bottom: 1px solid black;
+        font-size: 2rem;
+
+        .hero-titulo-2 {
+            color: #6b0909;
+            font-weight: 700;
+            font-size: 1rem;
+        }
+
+        .hero-texto {
+            margin-bottom: 1.5rem;
+            padding-bottom: 1.5rem;
+            color: white;
+        }
+
+        .btn {
+            color: rgba(255, 255, 255, 0.829);
+            border: 1px solid black;
+        }
+    }
+} 

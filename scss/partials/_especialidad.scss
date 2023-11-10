@@ -1,0 +1,23 @@
+.especialidades {
+    background-color: #6b0909;
+    color: white;
+
+    .esp-container {
+        display: flex;
+        align-items: center;
+        margin-inline: auto;
+    }
+
+    .card {
+        height: 700px;
+        background-color: #202b27;
+
+        .card-title {
+            background-color: black;
+        }
+
+        .card-text {
+            background-color: black;
+        }
+    }
+}

@@ -1,0 +1,490 @@
+/* TIPOGRAFIA-TITULOS*/
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch&display=swap');
+
+
+/* RESET*/
+*{
+    margin: 0;
+    padding: 0;
+    /* background: #947a5c; */
+    box-sizing: border-box;
+}
+
+.header{
+    background-image: linear-gradient(30deg, black, #886d4e);
+}
+img {
+    max-width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+header { 
+    /* background-color: #bbbbbb; */
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 6rem;
+    border-bottom: 1px solid black;
+}
+
+.nav {
+    flex-wrap: wrap;
+}
+.menu {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.menu-link {
+    color: white;
+}
+
+
+.logo {
+    align-items: center;
+}
+
+.logo-imagen {
+    max-width: 900px;
+    width: 6rem;
+}
+
+
+.logo-titulo {
+    font-weight: 800;
+    font-size: 2rem;
+}
+
+.logo-slogan {
+    color: white;
+    font-size: .9rem; 
+}
+
+
+/* º */
+
+/* SECCIONES 1 */
+
+.hero {
+    background-color: #202b27;
+    display: flex;
+    align-items: center;
+    /* padding-inline: 8rem; */
+} 
+
+.hero-img {
+    width: 78%;
+    height: 50%;
+    
+}
+
+.hero-titulo {
+    color:white;
+    font-weight: 750;
+    font-size: 2rem;
+    border-bottom: 1px solid black;
+}
+
+.hero-titulo-2 {
+    color: white;
+    font-weight: 700;
+    font-size: 1rem;
+}
+
+.hero-texto {
+    color: white;
+    margin-bottom: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+.btn {
+    color: rgba(255, 255, 255, 0.829);
+    border: 1px solid black;
+}
+
+
+
+
+/* Seccion 2 */
+
+.escuela {
+    padding-block: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:#886d4e;
+}
+
+
+.titulo-3{
+    color: rgba(255, 255, 255, 0.829);
+    border-bottom: 1px solid black;
+    display: flex;
+    font-weight: 700;
+    font-size: 1rem;
+}
+
+.esfa{
+    color: rgba(255, 255, 255, 0.829);
+}
+
+.esfae {
+    color: rgba(255, 255, 255, 0.829);
+}
+
+.eam {
+    color: rgba(255, 255, 255, 0.829);
+}
+
+
+.titulo-4 {
+    color: rgba(255, 255, 255, 0.829);
+    border-bottom: 1px solid black;
+    display: flex;
+    font-weight: 700;
+    font-size: 1rem;
+}
+
+
+/* SECCION 3 */
+.especialidades {
+    background-color: #6b0909;
+    color: white;
+}
+
+.card {
+    background-color: #202b27;
+}
+
+
+/* SECCION 4 */
+.event {
+    background-color: #bbbbbb;
+}
+
+.set4-container {
+    display: flex;
+    align-items: center;
+    margin-inline: auto;
+    
+    padding: 1rem 6rem;
+    border-bottom: 1px solid black;
+}
+
+.img-band {
+    width: 9rem;
+    height: 8rem;
+}
+
+.card {
+    transition: transform 0.3s;
+}
+.card:hover {
+    transform: scale(1.1) translateY(-60px);
+}
+
+
+
+/* PAG. VYCA */
+.scudovyca {
+    width: 30%;
+}
+
+
+.rojo {
+    background-color: red;
+}
+
+.violeta {
+    background-color: purple;
+}
+
+.rosa {
+    background-color: pink;
+}
+
+.amarillo {
+    background-color: yellowgreen;
+}
+
+
+
+/* PAG MECANICOS */
+.meca1 {
+    width: 30%;
+}
+
+.cls-mec {
+    background-color: #00c3ff;
+}
+
+.tcnicos {
+    background-color: royalblue;
+}
+
+
+/* PAG. ECAE */
+.caza {
+    width: 30%;
+}
+
+.interceptor {
+    background-color: rgb(0, 140, 255);
+}
+
+.pampa {
+    background-color: darkgrey;
+}
+
+
+
+
+/* CONTACTO */
+.contenedor {
+    width: 1000!important;
+}
+.bg-primary{
+    background-color: rgb(82, 23, 110)!important;
+}
+
+.contactForm .form-control{
+    border: none;
+    border-bottom: 1px solid black;
+    padding: 0;
+}
+
+.form-control{
+    height: 36px;
+    background: #ffffff;
+    color: rgb(0,0,0,0.8);
+    font-size: 14px;
+    border-radius: 2px;
+    box-shadow: none!important;
+    border: 1px solid rgb(0,0,0,0.8);
+}
+
+.form-control:focus, .form-control:active{
+    border-color: #01d28e!important;
+}
+
+.btn-primary{
+    background: #01d28e!important;
+    border-color: #01d28e!important;
+    color: white;
+    width: 100px;
+        border-radius: 0!important;
+}
+
+.btn-primary:hover{
+    background-color: #28a745!important;
+}
+
+.bi{
+    font-size: 50%;
+}
+
+@media only screen and (max-width:600px){
+    .contenedor{
+        width: 100%!important;
+        padding-bottom: 207px!important;
+    }
+}
+
+
+
+
+
+
+
+/* FOOTER */
+.footer {
+    background-image: linear-gradient(30deg, black, #202b27);
+    padding: 10px 0;
+}
+
+.footer-row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer-links {
+    width: 25%;
+    padding: 0 15px;
+}
+
+
+
+.footer-links h4 {
+    font-size: 20PX;
+    color: #ffffff;
+    margin-bottom: 25px;
+    font-weight: 500px;
+    border-bottom: 2px solid black;
+    padding-bottom: 10px;
+    display: inline-block;
+}
+
+
+
+.footer-links ul li a {
+    font-size: 18px;
+    text-decoration: none;
+    color: #bbbbbb;
+    display: block;
+    margin-bottom: 15px;
+    transition: all .3s ease;
+}
+
+.footer-links ul li a:hover {
+    color: white;
+    padding-left: 6px;
+}
+
+
+/* ICONOS */
+
+.social-link a {
+    display: inline-block;
+    min-height: 40px;
+    width: 40px;
+    background-color: rgba(225, 225, 225, 0.2);
+    margin: 0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #ffffff;
+    transition: all .5s ease;
+}
+
+iframe {
+    filter: invert(100%);
+}
+
+.social-link a:hover {
+    background-color: #00c3ff;
+}
+
+
+
+
+
+/* Pag GALERIA */
+/* GRID */
+.galeria-container {
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: 
+    "civa    g1vae   g2vyc   gvyc      cvyc"
+    "dirvca  merlo   fps113  antps-43  rpa";
+}
+
+.hijo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* DIFERENCIAR LAS COLUMNAS */
+.civa {
+    background-color: #00c3ff;
+    grid-area: civa;
+}
+
+.g1vae {
+    background-color: #202b27;
+    grid-area: g1vae;
+}
+
+.g2vyc {
+    background-color: blue;
+    grid-area: g2vyc;
+}
+
+.gvyc {
+    background-color: blueviolet;
+    grid-area: gvyc;
+}
+
+.cvyc {
+    background-color: #bbbbbb;
+    grid-area: cvyc;
+}
+
+.dirvca {
+    background-color: #6b0909;
+    grid-area: dirvca;
+}
+
+.merlo {
+    background-color: yellow;
+    grid-area: merlo;
+}
+
+.fps113 {
+    background-color: tomato;
+    grid-area: fps113;
+}
+
+.antps-43 {
+    background-color: orange;
+    grid-area: antps-43;
+}
+
+.rpa {
+    background-color: springgreen;
+    grid-area: rpa ;
+}
+
+/* GALERIA RESPONSIVE */
+.img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+
+ /* RESPONSIVE */
+@media (max-width:1000px) {
+    .footer-row {text-align: center;}
+
+    .footer-links {
+        width: 100%;
+        margin-bottom: 30px;}
+}
+
+
+
+
+
+/* MOBIL 
+@media (max-width: 767px) {
+    .card {display: none;}
+    .event {display: none;}
+    .footer {display: none;}
+} */
+
+
+/* TABLET 
+@media (min-width: 768px) and (max-width: 990px) {
+    .card {display: none;}
+    .event {display: none;}
+    .footer {display: none;}
+} */
+
+
+/* ESCRITORIO 
+@media (min-width: 991px) {
+    .event {display: none;}
+    .footer {display: none;}
+} */

@@ -1,0 +1,32 @@
+.escuela {
+    padding-block: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .titulo-3{
+        border-bottom: 1px solid black;
+        display: flex;
+        font-weight: 700;
+        font-size: 1rem;
+        
+        .esfa{
+            color: rgba(255, 255, 255, 0.829);
+        }
+        
+        .esfae {
+            color: rgba(255, 255, 255, 0.829);
+        }
+    }
+
+    .titulo-4 {
+        border-bottom: 1px solid black;
+        display: flex;
+        font-weight: 700;
+        font-size: 1rem;
+        
+        .eam {
+            color: rgba(255, 255, 255, 0.829);
+        }
+    }
+}

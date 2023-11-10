@@ -1,0 +1,19 @@
+.event {
+    background-color: #bbbbbb;
+
+    .set4-container {
+        max-width: 1000;
+        display: flex;
+        align-items: center;
+        margin-inline: auto;
+        gap: 22rem;
+        
+        padding: 1rem 6rem;
+        border-bottom: 1px solid black;
+
+        .img-band {
+            width: 9rem;
+            height: 8rem;
+        }
+    }
+}

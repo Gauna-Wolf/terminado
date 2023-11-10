@@ -1,0 +1,48 @@
+header {
+    background-color: #bbbbbb;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 6rem;
+    border-bottom: 1px solid black;
+
+
+    .logo-imagen {
+        width: 9rem;
+
+        .logo {
+            align-items: center;
+
+            .logo-titulo {
+                font-weight: 800;
+                font-size: 2rem;
+
+                .logo-slogan {
+                    font-size: .9rem; 
+                }
+            }
+        }
+
+    }
+
+    .nav {
+        flex-wrap: wrap;
+        
+        .menu {
+            list-style-type: none;
+                display: flex;
+                flex-wrap: wrap;
+                gap: 1rem;
+
+                .menu-items {
+                    a {
+                        color: #18454b;
+                    }
+                }
+        }
+    }
+
+
+
+    
+}
