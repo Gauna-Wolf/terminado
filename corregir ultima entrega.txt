@@ -1,0 +1,6 @@
+Poner un "padding" a las section interno a los html V.Y.C.A, MECANICOS, E.C.A.E
+Poner un "Dipley-Flex" a escudo VYCA y los que significa "El emblema"
+Poner "Responsive" a las GALERIA
+Agregar "padding" en Contacto
+"Responsive" al Menu
+"padding 3rem" a "section class=especialidades"

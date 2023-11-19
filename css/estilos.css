@@ -6,7 +6,6 @@
 *{
     margin: 0;
     padding: 0;
-    /* background: #947a5c; */
     box-sizing: border-box;
 }
 
@@ -22,8 +21,7 @@ a {
 }
 
 
-header { 
-    /* background-color: #bbbbbb; */
+header {
     color: white;
     display: flex;
     justify-content: space-between;
@@ -68,38 +66,40 @@ header {
 }
 
 
-/* º */
-
 /* SECCIONES 1 */
 
 .hero {
     background-color: #202b27;
     display: flex;
     align-items: center;
-    /* padding-inline: 8rem; */
+    padding: 1.5rem;
+    background-image: url("../imge/banner.jfif"); /*imgan de fondo*/
+    background-position:center;    /*centrar imagen*/
+    background-repeat: no-repeat;  /*no se repita*/
+    background-size: cover;   /*Se vea a lo largo de la pag*/
+    min-height: 420px;
 } 
 
-.hero-img {
-    width: 78%;
-    height: 50%;
-    
+.hero-info{
+    text-align: right;
+    backdrop-filter: blur(1px);
 }
 
 .hero-titulo {
-    color:white;
+    color:#886d4e;
     font-weight: 750;
     font-size: 2rem;
     border-bottom: 1px solid black;
 }
 
 .hero-titulo-2 {
-    color: white;
+    color: #886d4e;
     font-weight: 700;
     font-size: 1rem;
 }
 
 .hero-texto {
-    color: white;
+    color: #886d4e;
     margin-bottom: 1.5rem;
     padding-bottom: 1.5rem;
 }
@@ -192,27 +192,47 @@ header {
 
 
 
+
+
+
 /* PAG. VYCA */
-.scudovyca {
-    width: 30%;
+.fondo-radar{
+    display: flex;
 }
 
 
 .rojo {
-    background-color: red;
+    background-image: url(../imge/bg-main-dark.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 3rem;
 }
 
 .violeta {
+    padding: 3rem;
     background-color: purple;
 }
 
 .rosa {
-    background-color: pink;
+    padding: 3rem;
+    background-color: #25352f;
 }
 
 .amarillo {
-    background-color: yellowgreen;
+    color: #805700f6;
+    padding: 3rem;
+    background-image: url(../imge/galeria/1.jpg);
+    /* background-repeat: no-repeat;
+    background-position: center; */
+    background-size: cover;
+    text-align: right;
 }
+
+
+
+
+
 
 
 
@@ -378,8 +398,11 @@ iframe {
 
 /* Pag GALERIA */
 /* GRID */
+.galeria{
+    vertical-align: middle;
+    display: inline-block;
+}
 .galeria-container {
-    height: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
@@ -447,12 +470,8 @@ iframe {
 }
 
 /* GALERIA RESPONSIVE */
-.img {
-    max-width: 100%;
-    height: auto;
-    vertical-align: middle;
-    display: inline-block;
-}
+/* .img {
+} */
 
 
  /* RESPONSIVE */
