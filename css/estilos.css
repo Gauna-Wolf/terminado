@@ -78,15 +78,16 @@ header {
     background-repeat: no-repeat;  /*no se repita*/
     background-size: cover;   /*Se vea a lo largo de la pag*/
     min-height: 420px;
+    color: white;
 } 
 
 .hero-info{
     text-align: right;
-    backdrop-filter: blur(1px);
+    backdrop-filter: blur(10px);
 }
 
 .hero-titulo {
-    color:#886d4e;
+    /* color:#886d4e; */
     font-weight: 750;
     font-size: 2rem;
     border-bottom: 1px solid black;
@@ -229,25 +230,34 @@ header {
     text-align: right;
 }
 
-
-
+.distortion{
+    backdrop-filter: blur(2px);
+    color: black;
+}
 
 
 
 
 
 /* PAG MECANICOS */
+.orfer{
+    display: flex;
+    background-color: #bbbbbb;
+}
+
 .meca1 {
-    width: 30%;
+    width: 400px;
 }
 
-.cls-mec {
-    background-color: #00c3ff;
+.meca-labo{
+    width: 500px;
 }
 
-.tcnicos {
-    background-color: royalblue;
+.mec2{
+    width: 500px;
 }
+
+
 
 
 /* PAG. ECAE */
@@ -256,15 +266,26 @@ header {
 }
 
 .interceptor {
-    background-color: rgb(0, 140, 255);
+    background-color: #202b27;
+    display: flex;
 }
 
 .pampa {
-    background-color: darkgrey;
+    background-color: #202b27;
+    background-image: url(../imge/bg-main-dark.jpg);
 }
 
+.sheler{
+    width: 600px;
+}
 
+.cza8{
+    width: 400px;
+}
 
+.czaa4b{
+    width: 300px;
+}
 
 /* CONTACTO */
 .contenedor {
